@@ -42,3 +42,22 @@ print(student)
 print(student.count(20))
 student.extend(marks)
 print(student)
+
+# tuples
+
+tup = ()  # empty tuple
+tup = (1,)  # with single value
+tup = (67, 98, 45, 89, 34)
+print(tup)
+print(type(tup))
+
+# indexing and slicing
+print(tup[1])
+# tup(0) = 100 # not valid for tuples unlike lists tuples are immutable
+print(tup[-3])
+print(tup[2:5])
+
+# tuple methods
+
+print(tup.count(98))
+print(tup.index(45))
