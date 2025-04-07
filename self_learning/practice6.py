@@ -34,3 +34,12 @@ while idx < len(nums):
     idx += 1
 else:
     print("Number not found")
+
+# sum of first n numbers
+
+sum_num = int(input("Enter the number to calculate sum : "))
+sumis, idx = 0, 1
+while idx <= sum_num:
+    sumis += idx
+    idx += 1
+print(sumis)
