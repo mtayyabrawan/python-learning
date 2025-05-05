@@ -38,3 +38,28 @@ def PKRToUSD(pkr):
 
 
 print(PKRToUSD(50000))
+
+
+# WAF to calculate sum of first n natural numbers using recursion
+
+
+def sumOfN(n):
+    if n < 1:
+        return 0
+    return sumOfN(n - 1) + n
+
+
+print(sumOfN(100))
+
+
+# WAF to print elem of list (recursive)
+
+
+def recPrint(givenList, idx=0):
+    if len(givenList) == idx:
+        return
+    print(givenList[idx])
+    return recPrint(givenList, idx + 1)
+
+
+recPrint([2, 7, 900, 717, 967, 2103508, "tayyab", "awan", "pasha"])
