@@ -1,0 +1,1 @@
+wipe this content of a file using python.
